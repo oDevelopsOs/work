@@ -1,0 +1,22 @@
+.nobt{
+    text-align: center;
+}
+.nobt h3{
+    font-size: 35px;
+    margin-bottom: 2rem;
+}
+.mainCard{
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 1rem; */
+}
+.card{
+    cursor: pointer;
+    padding: 1rem 0 1rem 0;
+    width: 100%;
+    border: 1px solid black;
+
+}

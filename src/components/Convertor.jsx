@@ -54,7 +54,5 @@ function Convertor() {
           </Paper>
         </div>
       );
-    };
-
-    
-    export default Convertor; 
+    }
+    export default Convertor;

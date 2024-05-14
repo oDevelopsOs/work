@@ -44,15 +44,7 @@
 }
 aside{
   height: 100vh;
-  
 }
-aside div {
-  /* background-color: #b5b5b5; */
-}
-aside div ul{
-  /* background-color: aqua; */
-}
-
 .bigMenu{
   margin-top: 1.5rem;
   display: flex;

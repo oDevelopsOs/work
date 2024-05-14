@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import { useState } from 'react'
 import { Layout, Button, theme } from 'antd'
@@ -31,7 +32,7 @@ function Sidebar() {
         <Layout>
             <Sider 
                 // style={darkTheme ? {background : '#27355d'} : {background: '#b5b5b5'}}
-                trigger={null}
+                trigger={true}
                 collapsible
                 collapsed={collaps}
                 theme={darkTheme ? 'dark' : 'light'}    
@@ -50,7 +51,7 @@ function Sidebar() {
                     />
                 </Header>
                 <Content style={{ 
-                    margin: '0 16px',
+                    margin: '16px',
                     }}>
 
                     <div
@@ -76,7 +77,7 @@ function Sidebar() {
                         textAlign: 'center',
                     }}
                 >
-                    Miims ©{new Date().getFullYear()}  
+                    Helo Botata {new Date().getFullYear()}  
                 </Footer>
             </Layout>
         </Layout>
